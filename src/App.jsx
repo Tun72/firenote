@@ -1,3 +1,9 @@
+import CreateNote from "./components/CreateNote";
+import Header from "./components/Header";
+
 export default function App() {
-  return <div>App</div>;
+  return <section>
+    <Header />
+    <CreateNote />
+  </section>;
 }
